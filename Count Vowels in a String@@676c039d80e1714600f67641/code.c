@@ -14,7 +14,7 @@ int main() {
             vsize++;
         }
         else{
-            vsize = vsize + 0;
+            vsize =  + 0;
         }
     }
     printf("%d",vsize-1);
