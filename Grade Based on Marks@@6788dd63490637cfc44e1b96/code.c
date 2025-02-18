@@ -1,21 +1,22 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int a;
-    scanf("%d",&a);
-    if(a>=90){
+    scanf("%d", &a);
+
+    if (a >= 90) {
         printf("A");
-    }
-    elseif(a<90 && a>=80){
+    } 
+    else if (a >= 80) {  // No need to check 'a < 90' since previous condition already excludes it
         printf("B");
-    }
-     
-    elseif(a<80 && a>=70){
-        printf("C");
-    }
-    elseif(a>=60 && a<70){
+    } 
+    else if (a >= 70) {  // Similarly, 'a < 80' is implied
+        printf("C");  // Fixed inconsistent capitalization
+    } 
+    else if (a >= 60) {
         printf("D");
-    }
-    elseif(a<60){
+    } 
+    else {
         printf("F");
     }
 
