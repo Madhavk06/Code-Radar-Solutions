@@ -2,13 +2,15 @@
 
 int main(){
 
-    int a,b,c;
-    scanf("%d %d",&a,&b);
+    int a;
+    scanf("%d",&a);
 
-    c=a<<b;
-
-    printf("%d",c);
-
+    if(a & 1){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
 
     return 0;
 }
