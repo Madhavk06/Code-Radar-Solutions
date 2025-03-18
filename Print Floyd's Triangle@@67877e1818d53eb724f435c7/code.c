@@ -1,4 +1,3 @@
-// Your code here...
 int main(){
     int n;
     int k=1;
