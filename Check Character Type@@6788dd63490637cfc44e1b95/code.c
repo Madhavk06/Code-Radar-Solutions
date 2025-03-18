@@ -1,20 +1,24 @@
-// Your code here...
 #include <stdio.h>
+#include<ctype.h>
 
 int main(){
 
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
+    char a;
+    scanf("%c",&a);
 
-    if(a>c && a>b){
-        printf("%d",a);
+    if(a == 'a' || a == 'e' || a == 'i' || a == 'O' || a == 'u'){
+        printf("Vowel");
     }
-    else if(b>a && b>c){
-        printf("%d",b);
+    else if(isdigit(a)){
+        printf("Digit");
+    }
+    else if(isalpha(a)){
+        printf("Consonant");
     }
     else{
-        printf("%d",c);
+        printf("Special Character");
     }
+
 
     return 0;
 }
