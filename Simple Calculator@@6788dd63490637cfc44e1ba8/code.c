@@ -23,5 +23,5 @@ int main(){
     else if(c==/){
         printf(divide);
     }
-    
+    return 0;
 }
