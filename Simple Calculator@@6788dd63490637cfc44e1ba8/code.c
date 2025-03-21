@@ -11,16 +11,16 @@ int main(){
     divide =a/b;
     mul =a*b;
     minus =a-b;
-    if(c==+){
+    if(c== +){
         printf(sum);
     }
-     else if(c==-){
+     else if(c== -){
         printf(minus);
     }
-    else if(c==*){
+    else if(c== *){
         printf(mul);
     }
-    else if(c==/){
+    else if(c== /){
         printf(divide);
     }
     return 0;
