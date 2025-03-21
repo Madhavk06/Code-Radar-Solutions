@@ -3,7 +3,7 @@ int main(){
     int a,b;
     char c;
     int sum;
-    int divide;
+    int divide ;
     int minus;
     int mul;
     scanf("%d %d %c",&a,&b,&c);
