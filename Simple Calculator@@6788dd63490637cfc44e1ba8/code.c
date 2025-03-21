@@ -23,5 +23,8 @@ int main(){
     else if(c== '/'){
         printf("%d",divide);
     }
+    else{
+        printf("Invakid]");
+    }
     return 0;
 }
