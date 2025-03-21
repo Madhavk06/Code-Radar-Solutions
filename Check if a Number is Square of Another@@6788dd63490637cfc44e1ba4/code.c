@@ -5,8 +5,8 @@ int main(){
     if(b*b == a ){
         printf("Yes");
     }
-    else({
+    else{
         printf("No");
-    })
+    }
     return 0 ;
 }
