@@ -12,16 +12,16 @@ int main(){
     mul =a*b;
     minus =a-b;
     if(c== '+'){
-        printf(sum);
+        printf("%d",sum);
     }
      else if(c== '-'){
-        printf(minus);
+        printf("%d",minus);
     }
     else if(c== '*'){
-        printf(mul);
+        printf("%d",mul);
     }
     else if(c== '/'){
-        printf(divide);
+        printf("%d",divide);
     }
     return 0;
 }
